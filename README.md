@@ -14,7 +14,7 @@ It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd AI-Test-Case-Generator
    ```
 
 4. Create a new virtual environment and activate it.

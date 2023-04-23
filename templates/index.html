@@ -3,19 +3,27 @@
   <title>OpenAI Quickstart</title>
   <link
     rel="shortcut icon"
-    href="{{ url_for('static', filename='dog.png') }}"
+    href="{{ url_for('static', filename='Devzery.webp') }}"
   />
   <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
 </head>
 
 <body>
+  <div class="text-animation">Test case generating tool.</div> <br>
   <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
-  <h3>Name my pet</h3>
-  <form action="/" method="post">
-    <input type="text" name="animal" placeholder="Enter an animal" required />
-    <input type="submit" value="Generate names" />
+<!--   <img src="{{ url_for('static', filename='Meditation.avif') }}" class="icon" />
+ -->  <form action="/" method="post">
+    <input type="text" name="product_description" placeholder="What does your product do?" required />
+    <input type="text" name="user_description" placeholder="Who are your users?" required />
+    <textarea name="requirements" placeholder="Detailed product Requirements or a URL containing the same." required></textarea> 
+    <span class="info-button" title="Please specify the product requirements in detail. The url should start with https://">i</span>
+    <input type="submit" value="Generate Test Cases" />
   </form>
+
   {% if result %}
-  <div class="result">{{ result }}</div>
+  <div class="scrollable-window" >
+    <div class="result">{{ result }}</div>
+  </div>
   {% endif %}
+
 </body>

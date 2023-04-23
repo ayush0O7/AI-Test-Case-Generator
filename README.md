@@ -1,6 +1,9 @@
-# OpenAI API Quickstart - Python example app
+# APP MADE USING GPT-3.5 OPEN AI APIs
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is an application that generates detailed test cases given the requirements of an application. 
+It can either be given the URL containing the requirements of an application or the requirements in plain text.
+
+It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
 
 ## Setup
 
@@ -14,7 +17,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ cd openai-quickstart-python
    ```
 
-4. Create a new virtual environment
+4. Create a new virtual environment and activate it.
 
    ```bash
    $ python -m venv venv
@@ -41,4 +44,4 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ flask run
    ```
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:5005]
